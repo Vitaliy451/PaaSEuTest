@@ -1,11 +1,7 @@
 {
   "entityType" : "DEVICE",
   "entity" : {
-    "additionalInfo" : {
-      "gateway" : false,
-      "overwriteActivityTime" : false,
-      "description" : ""
-    },
+    "additionalInfo" : null,
     "customerId" : {
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
@@ -26,16 +22,16 @@
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "2f8faa60-8406-11f0-a1e8-cbafe56f171c"
+      "id" : "ba179580-6714-11f0-8903-d1a93c7f0447"
     },
-    "label" : "",
-    "name" : "test",
+    "label" : null,
+    "name" : "SN-002",
     "ownerId" : null,
     "softwareId" : null,
     "type" : "default"
   },
   "credentials" : {
-    "credentialsId" : "mpdALsNX1bNLIJMr81o7",
+    "credentialsId" : "zaBzlsYcW03TCNaaOAwG",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -46,11 +42,35 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1756382255170,
+      "lastUpdateTs" : 1753370844902,
       "longValue" : null,
       "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1753200550736,
+      "longValue" : 1753200550735,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1753199917808,
+      "longValue" : 1753199916794,
+      "strValue" : null
     } ],
-    "SHARED_SCOPE" : [ ]
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "firmware",
+      "lastUpdateTs" : 1753200396077,
+      "longValue" : null,
+      "strValue" : "33333333333"
+    } ]
   },
   "calculatedFields" : [ ]
 }

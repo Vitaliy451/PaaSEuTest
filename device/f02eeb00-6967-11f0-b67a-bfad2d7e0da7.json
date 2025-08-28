@@ -26,16 +26,16 @@
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "2f8faa60-8406-11f0-a1e8-cbafe56f171c"
+      "id" : "f02eeb00-6967-11f0-b67a-bfad2d7e0da7"
     },
     "label" : "",
-    "name" : "test",
+    "name" : "TestDevice",
     "ownerId" : null,
     "softwareId" : null,
     "type" : "default"
   },
   "credentials" : {
-    "credentialsId" : "mpdALsNX1bNLIJMr81o7",
+    "credentialsId" : "8aTbFGdvdnTJIBtzDJYu",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -46,8 +46,16 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1756382255170,
+      "lastUpdateTs" : 1753456216120,
       "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1753456216103,
+      "longValue" : 1753456216101,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
